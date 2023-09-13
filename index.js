@@ -1,8 +1,7 @@
-const input= document.getElementById('button');
+function addingEventListener(e){
+    document.querySelector('#button').addEventListener('click',(e) => {
+        alert("Hi You asked for me?")
+    })
+}
 
-function clickAlert(){
-    alert("Surprise pal")
-}
-function addingEventListener() {
-    input.addEventListener('click',clickAlert);
-}
+
